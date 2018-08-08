@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(images/cute-puppy-sad.jpg);
+    background-size: cover;
+    width: 1180px;
+    height: auto;
+}
+
+img{
+    width: 10%;
+    height: 10%;
+    margin-left: 10px;
+
+}

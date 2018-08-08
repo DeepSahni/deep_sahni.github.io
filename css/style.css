@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.background-wrapper{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../images/bg-1.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 620px;
+
+}
+
+.headerset{
+    padding-top: 250px;
+    box-sizing: border-box;
+}
+
+.headerset h2{
+    font-size: 52px;
+}
+
+.headerset h1{
+    font-size: 42px;
+    font-weight:400;
+}
+
+
+/*-------------------------------------SECTION-SERVICES-------------------------------------*/
+
+.ourservices{
+    padding: 100px 0px 60px;
+    height: 700px;
+}
+
+.ourservices h1{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.rowsetting{
+    margin: 80px 0 !important;
+}
+
+.rowsetting p{
+    padding: 10px;
+    color: #6c757d !important;
+}
+
+.rowsetting h2{
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.imgsetting{
+   border-radius: 50%;
+   height: 100px;
+   width: 100px;
+   
+}
+
+i{
+    position: relative;
+    margin-top: 25%;
+
+}
+
+.card img{
+   height: 300px;
+}
+
+/*---------------------------PORTFOLIO------------------------------------------*/
+
+.section-portfolio{
+    height: 1100px;
+    width: 100%;
+    padding: 50px 0 50px;
+}
+
+.section-portfolio h1{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.card{
+    margin-top: 40px;
+}
+
+.figure img{
+    border-radius: 50%;
+   
+}
+
+/*-----------------------------------OUR TEAM-----------------------------------*/
+
+.section-team{
+    height: 700px;
+    padding: 100px 0 60px;
+    width: 100%;
+
+}
+
+.section-team h1{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.teamsetting{
+    
+    margin-top: 70px !important;
+}
+
+
+/*-----------------------------------FOOTER----------------------------------------*/
+
+footer{
+    height: 50px;
+}
+
+footer h6{
+    line-height: 50px;
+    color: #6c757d;
+}
+
+
+
+
+
+/*----------------RESPONSIVE----------------*/
+
+@media(min-width: 992px){
+    .section-portfolio{
+        height: 1100px;
+    }
+
+    .ourservices{
+        
+        height: 600px;
+    }
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+
+    .headerset h2{
+        font-size: 32px;
+    }
+    
+    .headerset h1{
+        font-size: 24px;
+        font-weight:400;
+    }
+
+    .section-portfolio{
+        height: 1200px;
+    }
+
+    .ourservices{
+        
+        height: 700px;
+    }
+}
+
+@media (min-width: 575px) and (max-width: 767px){
+    .headerset h2{
+        font-size: 30px;
+    }
+    
+    .headerset h1{
+        font-size: 24px;
+        font-weight:400;
+    }
+
+    .section-portfolio{
+        height: 3000px;
+    }
+
+    .section-team{
+        height: 1200px;
+        
+    }
+
+
+}
+
+@media (min-width: 480px) and (max-width: 574px){
+
+    .headerset h2{
+        font-size: 28px;
+    }
+    
+    .headerset h1{
+        font-size: 22px;
+        font-weight:400;
+    }
+
+    .ourservices{
+        
+        height: 1100px;
+    }
+    .section-team{
+        height: 1200px;
+        
+    }
+
+    .section-portfolio{
+        height: 3000px;
+    }
+
+}
+
+@media(max-width: 479px){
+    .headerset h2{
+        font-size: 22px;
+    }
+    
+    .headerset h1{
+        font-size: 18px;
+        font-weight:400;
+    }
+
+    .ourservices{
+        
+        height: 1500px;
+    }
+
+    .section-team{
+        height: 1200px;
+        
+    }
+
+    .section-portfolio{
+        height: 3000px;
+    }
+    .section-portfolio {
+
+    }
+    
+    }
+

@@ -89,10 +89,10 @@ i{
     margin-top: 40px;
 }
 
-.figure img{
-    border-radius: 50%;
-   
-}
+/* .card img{
+    height: 100%;
+    width: 100%;
+} */
 
 /*-----------------------------------OUR TEAM-----------------------------------*/
 
@@ -111,6 +111,11 @@ i{
 .teamsetting{
     
     margin-top: 70px !important;
+}
+
+.figure img{
+    border-radius: 50%;
+   
 }
 
 
@@ -216,16 +221,18 @@ footer h6{
 @media(max-width: 479px){
     .headerset h2{
         font-size: 22px;
+        margin-top: 25px;
     }
     
     .headerset h1{
         font-size: 18px;
         font-weight:400;
+        
     }
 
     .ourservices{
         
-        height: 1500px;
+        height: 1200px;
     }
 
     .section-team{
@@ -236,8 +243,9 @@ footer h6{
     .section-portfolio{
         height: 3000px;
     }
-    .section-portfolio {
-
+    .headerset{
+        padding-top: 140px;
+        box-sizing: border-box;
     }
     
     }
